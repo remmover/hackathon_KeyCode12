@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hackathon-keycode12"
+version = "0.1.0"
+description = ""
+authors = ["remmover <77463027+remmover@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hackathon_keycode12"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = {extras = ["all"], version = "^0.100.1"}
+alembic = "^1.11.1"
+sqlalchemy = "^2.0.19"
+asyncpg = "^0.28.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

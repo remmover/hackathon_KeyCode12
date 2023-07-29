@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["remmover <77463027+remmover@users.noreply.github.com>"]
 readme = "README.md"
-packages = [{include = "hackathon_keycode12"}]
+#packages = [{include = "hackathon_keycode12"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
